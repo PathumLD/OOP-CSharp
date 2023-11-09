@@ -67,7 +67,21 @@ namespace OOP
             Person person1 = new Person();
             person1.sleep(20);
 
+
+            ----------------------------------------------------------------------------------------------
+
+
+
+            //INHERITANCE
             Student student1 = new Student();
             student1.sleep(bedSize);
+
+
+
+            ----------------------------------------------------------------------------------------------------
+
+
+            //ABSTRACTION
+
     }
 }

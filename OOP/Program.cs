@@ -48,5 +48,26 @@ namespace OOP
 
             Console.ReadLine();
         }
+
+
+        --------------------------------------------------------------------------------------------------
+
+
+            //INHERITANCE
+
+            Student student1 = new Student();
+            student1.study();
+
+
+            ---------------------------------------------------------------------------------------------------------------------------
+
+
+            //POLYMORPHISM
+
+            Person person1 = new Person();
+            person1.sleep(20);
+
+            Student student1 = new Student();
+            student1.sleep(bedSize);
     }
 }

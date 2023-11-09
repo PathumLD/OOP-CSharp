@@ -59,5 +59,42 @@ namespace OOP
         {
             Console.WriteLine("Hey, I am sleeping");
         }
+
+
+        -------------------------------------------------------------------------------
+
+        public String color;
+        public int height;
+
+        public void Sleep()
+        {
+
+        }
+
+
+        -------------------------------------------------------------------------------
+
+
+
+        //Polymorphism
+
+        //method overloading
+        public void sleep()
+        {
+
+        }
+
+        public void sleep(int bedSize)
+        {
+
+        }
+
+        //method overriding
+
+        public void sleep (int bedSize)
+        {
+            Console.WriteLine("This is the parent");
+        }
+
     }
 }

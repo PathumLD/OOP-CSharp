@@ -36,6 +36,16 @@ namespace OOP
             Console.WriteLine("Mobile is " + person1.Mobile);
             Console.WriteLine("Gender is " + person2.Gender);
 
+
+            ---------------------------------------------------------------------------------------------------------------------------
+
+
+            //Object stu1 with default constructor
+            People stu1 = new People();
+
+            //Object stu2 with overloaded constructor
+            People stu2 = new People(8, Maths);
+
             Console.ReadLine();
         }
     }

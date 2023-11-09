@@ -13,4 +13,20 @@ namespace OOP
 
 		}
 	}
+
+	--------------------------------------------------
+
+
+	class Circle : IShapes
+	{
+		public void calculateArea()
+		{
+
+		}
+
+		public void calculatePerimeter()
+		{
+
+		}
+	}
 }

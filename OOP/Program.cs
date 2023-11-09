@@ -46,6 +46,22 @@ namespace OOP
             //Object stu2 with overloaded constructor
             Student stu2 = new Student(8, "Maths");
 
+
+            //Exception handling
+
+            try
+            {
+                Console.Write("Enter No : ")
+                int num = Int16.Parse(Console.ReadLine());
+
+                Console.WriteLine("Your no is " + num);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+
             Console.ReadLine();
         }
 

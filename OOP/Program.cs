@@ -6,6 +6,9 @@ namespace OOP
     {
         static void Main(string[] args)
         {
+
+            // ENCAPSULATION
+
             //Creating object person1
             Person person1 = new Person();
 
@@ -20,10 +23,18 @@ namespace OOP
             person2.name = "Michelle";
             person2.age = 23;
 
+            person1.Mobile = "Samsung";
+            person2.Gender = "Female";
+
+            //Accessing methods
+            person2.eating();
+
             Console.WriteLine("Name is " + person1.name);
             Console.WriteLine("Age is " + person1.age);
             Console.WriteLine("Name is " + person2.name);
             Console.WriteLine("Age is " + person2.age);
+            Console.WriteLine("Mobile is " + person1.Mobile);
+            Console.WriteLine("Gender is " + person2.Gender);
 
             Console.ReadLine();
         }

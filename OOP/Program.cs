@@ -41,10 +41,10 @@ namespace OOP
 
 
             //Object stu1 with default constructor
-            People stu1 = new People();
+            Student stu1 = new Student();
 
             //Object stu2 with overloaded constructor
-            People stu2 = new People(8, Maths);
+            Student stu2 = new Student(8, "Maths");
 
             Console.ReadLine();
         }

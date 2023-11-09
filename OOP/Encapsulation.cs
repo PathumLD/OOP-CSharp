@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-    internal class Person
+     class Person
     {
         public String name;
         public int age;
